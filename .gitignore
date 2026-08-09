@@ -1,0 +1,47 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled binary files
+*.exe
+*.out
+*.app
+
+# Build directories
+build/
+bin/
+obj/
+test_dir/
+
+# Test directories
+test/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Backup files
+*~
+*.bak
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+
+# CMake files (if using CMake)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Generated files from tools like autoconf/automake
+Makefile.in
+Makefile.am
+
+# Other generated files
+*.dSYM/
+*.class
+
+# Ignore the .gitignore file itself if needed (optional)
+# .gitignore
